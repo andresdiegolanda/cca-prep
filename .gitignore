@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local scratch — anything I don't want committed
+scratch/
+TODO.local.md
+*.local.md
+
+# Sensitive — should never end up here, but defensive
+secrets/
+.env
+.env.local
+
+# Claude Code artifacts (if I copy a real working project into hands-on/, do NOT commit credentials)
+.claude/credentials*
+**/.anthropic/
+
+# Anthropic-issued exam materials — never commit
+exam-guide-*.pdf
+skilljar-export-*.zip
