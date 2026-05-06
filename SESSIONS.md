@@ -78,4 +78,21 @@ Append-only log of every study session. Never edit past entries — append corre
 - Partner Network eligibility — verified by Andrés during this session, result recorded separately
 
 **Next session:**
-- Session 002: Week 0 hands-on scope expansion + first hands-on task (depends on eligibility outcome)
+- Session 002: Week 0 hands-on scope expansion (Agent SDK + Claude Code), corrected hands-on/README.md
+- Eligibility outcome: not Partner Network member yet, deferred to later — exam date not scheduled until resolved
+
+## 2026-05-06 — Session 001 — Closeout
+**Duration:** session 001 closed out same day
+**Focus:** Verification session wrap-up
+
+**Result:**
+- All 10 Claude Code operations completed cleanly
+- Commit 3f05fcd staged and ready to push
+- Practice Coach chat created and standing by
+- Eligibility blocker logged: not Partner Network member, not blocking prep
+- Repo state confirmed consistent with PLAN.md v1.1.0 and CHANGELOG v1.1.0
+
+**Open issue to track:**
+- Partner Network membership — periodic check (monthly) until resolved. If Fidelity joins, register immediately.
+
+**Next session:** Session 002 — Week 0 hands-on scope expansion. Date TBD by Andrés.
