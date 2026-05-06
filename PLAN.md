@@ -10,16 +10,20 @@
 
 Before any study begins, verify on anthropic.com and Skilljar:
 
-- [ ] Exact credential name (assumed: **Claude Certified Architect — Foundations**, code **CCA-F**)
-- [ ] Pass threshold (assumed: **720/1000 scaled**)
-- [ ] Number of questions on the real exam (assumed: 60)
-- [ ] Time limit (assumed: 120 minutes)
+- [x] Credential name confirmed: **Claude Certified Architect — Foundations**, code **CCA-F**
+- [x] Pass threshold confirmed: **720/1000 scaled** (range 100–1000)
+- [x] Number of questions confirmed: **60**
+- [x] Time limit confirmed: **120 minutes**
+- [x] Cost: **$99 USD** ($0 for first 5,000 Partner Network employees)
+- [x] Validity: **2 years** from pass date
+- [x] No guessing penalty — answer every question
+- [x] Closed-book, no AI assistance during exam
 - [ ] Current domain weights:
-  - [ ] Domain 1 — Agentic Architecture (assumed 27%)
-  - [ ] Domain 2 — Claude Code Configuration (assumed 20%)
-  - [ ] Domain 3 — Prompt Engineering (assumed 20%)
-  - [ ] Domain 4 — Tool Design & MCP (assumed 18%)
-  - [ ] Domain 5 — Context Management (assumed 15%)
+  - [x] Domain 1 — Agentic Architecture & Orchestration (27%) — verified 2026-05-06
+  - [x] Domain 2 — Tool Design & MCP Integration (18%) — verified 2026-05-06
+  - [x] Domain 3 — Claude Code Configuration & Workflows (20%) — verified 2026-05-06
+  - [x] Domain 4 — Prompt Engineering & Structured Output (20%) — verified 2026-05-06
+  - [x] Domain 5 — Context Management & Reliability (15%) — verified 2026-05-06
 - [ ] Practice exam length and policy (one-time vs replayable)
 - [ ] The six exam scenarios — names and any updates
 

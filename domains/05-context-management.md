@@ -1,4 +1,4 @@
-# Domain 5: Context Management (15%)
+# Domain 5: Context Management & Reliability (15%)
 
 > **Status:** Not started
 > **Last study session:** —

@@ -1,4 +1,4 @@
-# Domain 3: Prompt Engineering (20%)
+# Domain 4: Prompt Engineering & Structured Output (20%)
 
 > **Status:** Not started
 > **Last study session:** —

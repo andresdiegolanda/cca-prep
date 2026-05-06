@@ -2,7 +2,7 @@
 
 **Goal:** close the gap between theoretical understanding and operational use of Claude Code.
 
-Without this work, Domain 2 (20%) and parts of Domain 4 (18%) will be fragile — I'll recognise the right option in MCQ format but lose scenario questions that test setup decisions I've never actually made.
+Without this work, Domain 3 (20%) and parts of Domain 2 (18%) will be fragile — I'll recognise the right option in MCQ format but lose scenario questions that test setup decisions I've never actually made.
 
 ## Time budget
 

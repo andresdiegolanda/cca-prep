@@ -49,3 +49,33 @@ Append-only log of every study session. Never edit past entries — append corre
 **Next session:**
 - Verify exam name, pass threshold, domain weights, question count from anthropic.com / Skilljar
 - If verified, start Week 0 hands-on Task 1: install Claude Code CLI
+
+## 2026-05-06 — Session 001 — Week 0 — Verification
+**Duration:** 1h (target)
+**Focus:** Verify exam parameters, fix domain ordering, set up Practice Coach
+**Coach used:** none (procedural session)
+
+**What I did:**
+- Architect verified exam parameters against tutorialsdojo, claudecertifiedarchitect, panaversity, and multiple corroborating sources
+- Renamed 4 domain files to match official ordering
+- Expanded domain names to full official titles
+- Bumped CHANGELOG to 1.1.0
+- Set up Practice Coach chat in CCA Exam Prep project
+
+**What I learned:**
+- Domain ordering and names in my plan were partially wrong — weights were right, ordering was off
+- Exam launched March 2026, restricted to Anthropic Partner Network employees, $99 ($0 for first 5,000 partners)
+- Credential valid 2 years; no guessing penalty
+- Agent SDK is a first-class exam topic — Week 0 hands-on scope must expand beyond Claude Code CLI
+- Anthropic expects 6+ months production experience; my 0 hands-on hours is below their bar — Week 0 cannot be skipped
+
+**What I struggled with:**
+- (none — procedural session)
+
+**Mistakes added to MISTAKES.md:** 0
+
+**Open issue:**
+- Partner Network eligibility — verified by Andrés during this session, result recorded separately
+
+**Next session:**
+- Session 002: Week 0 hands-on scope expansion + first hands-on task (depends on eligibility outcome)

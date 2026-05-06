@@ -1,4 +1,4 @@
-# Domain 4: Tool Design & MCP (18%)
+# Domain 2: Tool Design & MCP Integration (18%)
 
 > **Status:** Not started — partially gated by Week 0 hands-on
 > **Last study session:** —

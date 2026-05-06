@@ -1,4 +1,4 @@
-# Domain 2: Claude Code Configuration (20%)
+# Domain 3: Claude Code Configuration & Workflows (20%)
 
 > **Status:** Not started — gated by Week 0 hands-on
 > **Last study session:** —

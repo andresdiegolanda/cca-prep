@@ -1,4 +1,4 @@
-# Domain 1: Agentic Architecture (27%)
+# Domain 1: Agentic Architecture & Orchestration (27%)
 
 > **Status:** Not started
 > **Last study session:** —
