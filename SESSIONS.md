@@ -96,3 +96,34 @@ Append-only log of every study session. Never edit past entries — append corre
 - Partner Network membership — periodic check (monthly) until resolved. If Fidelity joins, register immediately.
 
 **Next session:** Session 002 — Week 0 hands-on scope expansion. Date TBD by Andrés.
+
+## 2026-05-07 — Session 003 — Track A: Claude Code CLI fluency
+**Duration:** ~30 min (under 60-min budget)
+**Focus:** Slash commands, Plan Mode, one-shot/resume modes
+**Coach used:** Practice Coach (handoff at end of session)
+
+**What I did:**
+- Created sandbox repo (claude-code-sandbox, sibling to cca-prep) with a hello.py and README.md
+- Walked through 8 slash commands: /init, /clear, /compact, /cost, /memory, /model, /plan, /review
+- Toggled Plan Mode via Shift+Tab on a CLI argument parser task; observed real "deviation from plan" trace
+- Tested one-shot mode (claude -p) and resume (claude -c)
+
+**Findings:**
+- Plan Mode is keyboard-toggled, not slash-command-accessible. /plan does not exist in current Claude Code.
+- Slash command parser appears to fuzzy-match unknown commands silently (typed /plan, got /batch response). Worth verifying in Track B.
+- Plan Mode produced substantive behaviour: deviated from plan when UTF-16 encoding conflicted with Python file requirements, then surfaced the deviation transparently.
+
+**What I learned:**
+- Plan Mode preserves deviation traces — different from Copilot's silent corrections.
+- Slash commands in Claude Code are operational (control behaviour, switch models), not just conveniences. /clear and /compact do things prompts cannot.
+
+**Format change agreed for Session 004 onwards:**
+- Drop fill-in-the-blank notes template
+- Prose-only notes, written when worth thinking through, not for memorization
+- Trust learner to manage time within the 60-min budget
+- Practice Coach quiz at end of each session remains the verification check
+
+**Mistakes added to MISTAKES.md:** TBD — depends on Practice Coach $drill domain-3 result. Andrés to log post-quiz.
+
+**Next session:**
+- Session 004: Track B — Configuration depth (CLAUDE.md, settings.json, hooks, skills). Date: TBD by Andrés before next chat.
