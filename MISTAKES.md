@@ -44,4 +44,48 @@ Each entry is reviewed at intervals: **+3 days, +7 days, +14 days**. Compute rev
 
 ---
 
-_(no entries yet)_
+## M001 — 2026-05-07 — Domain 3 — Skill frontmatter context option
+**Source:** Practice Coach $drill domain-3 (Q3)
+**Question (paraphrased):**
+> A skill needs to perform an isolated subtask without polluting the parent agent's context. Which skill frontmatter option achieves this?
+
+**My answer:** capacity scaling option
+**Correct answer:** context: fork
+
+**Why I got it wrong:**
+- [x] knowledge gap (never learned this — Track B territory, not yet covered)
+- [x] distractor trap — "capacity-over-architecture" instinct: defaulted to scaling rather than architectural isolation
+
+**Mental model (one sentence I'll remember next time):**
+> `context: fork` in skill frontmatter isolates a skill's context window so the parent loop's context isn't polluted — it's about preventing context contamination, not about scaling capacity.
+
+**Reviews:**
+- +3 days (2026-05-10): [ ] passed / [ ] failed
+- +7 days (2026-05-14): [ ] passed / [ ] failed
+- +14 days (2026-05-21): [ ] passed / [ ] failed
+
+**Status:** Open
+
+---
+
+## M002 — 2026-05-07 — Domain 3 — MCP config file responsibility
+**Source:** Practice Coach $drill domain-3 (Q4)
+**Question (paraphrased):**
+> Which file is used to declare an MCP server for a project?
+
+**My answer:** settings.json
+**Correct answer:** .mcp.json
+
+**Why I got it wrong:**
+- [x] knowledge gap (Track B/D territory, not yet covered)
+- [x] right-concept-wrong-file — got the scope reasoning right (project-level, committable) but assigned the responsibility to the wrong file
+
+**Mental model (one sentence I'll remember next time):**
+> Four config files, four jobs: CLAUDE.md = behaviour and rules; settings.json = permissions, hooks, env; .mcp.json = MCP server wiring; ~/.claude.json = personal/global config. The scope question (project vs user) is a second axis, not the primary one.
+
+**Reviews:**
+- +3 days (2026-05-10): [ ] passed / [ ] failed
+- +7 days (2026-05-14): [ ] passed / [ ] failed
+- +14 days (2026-05-21): [ ] passed / [ ] failed
+
+**Status:** Open
