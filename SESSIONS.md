@@ -127,3 +127,29 @@ Append-only log of every study session. Never edit past entries — append corre
 
 **Next session:**
 - Session 004: Track B — Configuration depth (CLAUDE.md, settings.json, hooks, skills). Date: TBD by Andrés before next chat.
+
+## 2026-05-07 — Session 004 — Reviews + Track B (partial)
+**Duration:** 40 min (under 60-min budget)
+**Focus:** $review skill-frontmatter + $review config-files; Track B Exercises 1, 2, 3
+**Coach used:** Practice Coach (two reviews; end-of-session drill deferred to Session 005)
+
+**What I did:**
+- $review skill-frontmatter: 1/2 (missed model inheritance — logged as M003)
+- $review config-files: 2/2 (M002 mental model stuck)
+- Exercise 1 (CLAUDE.md): confirmed working — Claude Code respected written conventions on the next prompt
+- Exercise 2 (settings.json permissions + hook): did not work as expected; specifics not retained — deferred to Session 005
+- Exercise 3 (custom skill with frontmatter): did not work as expected; specifics not retained — deferred to Session 005
+
+**Findings:**
+- Spaced repetition works: M002 stuck (config-files 2/2 today vs missed yesterday)
+- Domain 3 cumulative: 4/7 = 57% across two sessions — below pass threshold, still needs work
+- Behavioural finding: when something didn't work, moved on rather than investigating. Exam-prep antipattern — Session 005 reopens both failed exercises with a debugging-first stance
+
+**What I learned:**
+- Model inheritance in skill frontmatter is by omission, not by `model: inherit` (M003)
+- CLAUDE.md genuinely shapes Claude Code's next-prompt behaviour — exercise 1 was the operational confirmation
+
+**Mistakes added to MISTAKES.md:** 1 (M003)
+
+**Next session:**
+- Session 005: $drill domain-3 (5 fresh questions for calibration) + reopen Exercises 2 and 3 with debugging-first approach. Date: TBD by Andrés before next chat.

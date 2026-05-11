@@ -89,3 +89,27 @@ Each entry is reviewed at intervals: **+3 days, +7 days, +14 days**. Compute rev
 - +14 days (2026-05-21): [ ] passed / [ ] failed
 
 **Status:** Open
+
+---
+
+## M003 — 2026-05-07 — Domain 3 — Model inheritance in skills
+**Source:** Practice Coach $review skill-frontmatter (Q2)
+**Question (paraphrased):**
+> A skill should run on the same model as the parent agent unless overridden. How do you express this in the frontmatter?
+
+**My answer:** model: inherit
+**Correct answer:** omit the model key entirely
+
+**Why I got it wrong:**
+- [x] right-instinct-wrong-syntax — assumed there would be an explicit "inherit" value because that's how most config systems work; Claude Code's default is "omitted = use parent"
+- [x] vocabulary divergence — "inherit" is a common term in config DSLs (Kubernetes, Terraform, etc.); not used here
+
+**Mental model (one sentence I'll remember next time):**
+> In Claude Code skill frontmatter, default behaviour comes from OMITTING the key, not from setting it to an "inherit" or "default" value. If you write `model: inherit`, you're literally trying to use a model named "inherit" — which doesn't exist.
+
+**Reviews:**
+- +3 days (2026-05-10): [ ] passed / [ ] failed
+- +7 days (2026-05-14): [ ] passed / [ ] failed
+- +14 days (2026-05-21): [ ] passed / [ ] failed
+
+**Status:** Open
