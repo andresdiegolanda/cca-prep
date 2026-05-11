@@ -153,3 +153,33 @@ Append-only log of every study session. Never edit past entries — append corre
 
 **Next session:**
 - Session 005: $drill domain-3 (5 fresh questions for calibration) + reopen Exercises 2 and 3 with debugging-first approach. Date: TBD by Andrés before next chat.
+
+## 2026-05-08 — Session 005 — Domain 3 drill round 2 + format pivot
+**Duration:** ~30 min (session ended early — see below)
+**Focus:** $drill domain-3 round 2 (originally planned: drill + reopen Exercises 2 and 3)
+**Coach used:** Practice Coach
+
+**What I did:**
+- $drill domain-3 round 2: 2/5 (Q1 permissions tri-state, Q2 headless cold-context, Q3 hook exit-code contract — all missed)
+- Cumulative Domain 3: 8/14 = 57%, below pass threshold (~72%)
+- Stopped session before reopening Exercises 2 and 3
+
+**Why session ended early:**
+- The three misses share a single coherent failure mode (implicit-helpful-default / invented-feature) — proceeding to debug exercises without first teaching the documented contracts would have produced more guessing data
+- Andrés explicitly asked for material/lesson before testing — correct correction to the methodology
+
+**Format change, locked in for Session 006 onwards:**
+1. Lesson (~20 min) — focused brief on session's target concepts
+2. Restate (~5 min) — Andrés tells Architect the concepts in own words; corrections happen before misunderstandings harden
+3. Hands-on (~25 min) — exercises that exercise just-taught concepts
+4. Drill (~10 min) — Practice Coach verifies retention
+
+**What I learned:**
+- The dominant failure mode is reasoning-instinct, not concept-gap. Picking answers that "would make sense if the system were designed reasonably" rather than answers that match documented contracts.
+- This pattern will affect every domain, not just Domain 3. The counter-heuristic ("can I point to this in the docs?") becomes a general practice, not a Domain 3 fix.
+- Exam writers engineer distractors specifically to exploit "the platform has my back" instinct. Boring contract-based answers beat clever inferred-behaviour answers.
+
+**Mistakes added to MISTAKES.md:** 3 (M004, M005, M006) — all share the implicit-helpful-default / invented-feature meta-pattern
+
+**Next session:**
+- Session 006: Domain 3 Fundamentals — lesson session (no hands-on). Covers permissions tri-state, hook contract, headless statelessness, configuration hierarchy. Ends with $review hooks + $review permissions as verification gate. Date: TBD by Andrés before next chat.
